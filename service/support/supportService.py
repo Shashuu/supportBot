@@ -77,7 +77,7 @@ class SupportService:
         
 
         if searchStatus:
-            print(searchResults)
+            # print(searchResults)
             candidate, score = self.getPotentialResult(searchResults = searchResults)
             if not self.checkTheThreshold(score):
                 return answer, None
