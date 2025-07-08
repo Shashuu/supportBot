@@ -3,7 +3,8 @@ from scraper.interface import Parser
 import requests
 from bs4 import BeautifulSoup
 
-from utils.commonUtil import pathConstruct, saveJSON
+from utils.commonUtil import pathConstruct, saveFile
+from constants.constants import FileExt
 
 class WebScraper(Parser):
     def __init__(self, conf, log, *args, **kwargs):
@@ -159,7 +160,7 @@ class WebScraper(Parser):
             olderFAQCount = len(self.faqs)
         
         self.log.info(f"no of questions extracted {len(self.faqs)}")
-        saveJSON(self.faqs, self.outpath)
+        saveFile(self.faqs, self.outpath, FileExt.JSON)
 
 # ws = WebScraper(baseURL="https://www.angelone.in/support")
 # ws.start()
