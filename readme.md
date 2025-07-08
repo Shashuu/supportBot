@@ -1,5 +1,3 @@
-data/scraper/out/web/
-
 # scripts
 
 # scrape the data from pdf and web
