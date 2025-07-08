@@ -27,3 +27,20 @@ python3.8 embedSearcher.py --conf config/searcher.yaml --index data/indexes/web.
 ### generate result string
 
 python3.8 supportBot.py --conf config/supportBot.yaml
+
+## example
+
+### request
+curl --location --request POST 'http://127.0.0.1:8080/help' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "query":"what does dp charges mean?"
+}'
+
+### response
+{
+    "data": {
+        "result": " dp charges are fees charged by depository participants at the time of selling shares from a demat account. These charges are based on the number of different scrips/shares/securities sold, rather than the quantity, and are levied at a rate of Rs 20 per scrip per transaction, with an additional 18% GST."
+    },
+    "flag": 1
+}
