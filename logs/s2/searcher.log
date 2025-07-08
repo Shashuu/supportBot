@@ -1,0 +1,9 @@
+2025-07-08 00:16:07,847 - ERROR - logger.py:34 -            exception() - failed to process with reason 
+Traceback (most recent call last):
+  File "embedSearcher.py", line 39, in search
+    scoreList, idList = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 34, in search
+    return self.ind.search(embedding, k=self.topK)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/faiss/__init__.py", line 308, in replacement_search
+    assert d == self.d
+AssertionError

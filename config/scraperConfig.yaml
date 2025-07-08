@@ -1,0 +1,25 @@
+webScraper:
+  baseURL: https://www.angelone.in/support
+  outDir: data/scraper/out/web/
+  outFile: scraped.json
+  logPath: logs/scraper.log
+
+pdfScraper:
+  dataDir: data/scraper/inp/pdf/
+  outDir: data/scraper/out/pdf/
+  logPath: logs/scraper.log
+  frontPagePrefix: parsedFirstPage_{}
+  otherPagePrefix: parsedOtherPages_{}
+  headers:
+    - Important Questions
+    - Common Medical Event
+    - Medical Event
+  firstPageColumns:
+    - Important Questions
+    - Answers
+    - Why This Matters
+  otherPagesColumns:
+    - Common Medical Event
+    - Services You May Need
+    - Member out of pocket
+    - Limitations, Exceptions, & Other Important Information

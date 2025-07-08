@@ -1,0 +1,74 @@
+2025-07-05 12:25:54,893 - ERROR - logger.py:34 -            exception() - failed to process with reason 'list' object has no attribute 'shape'
+Traceback (most recent call last):
+  File "/home/shashankkodakandla/Desktop/supportChatBot/embedSearcher.py", line 32, in search
+    result = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 27, in search
+    return self.ind.search(embedding, k=self.topK)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/faiss/__init__.py", line 307, in replacement_search
+    n, d = x.shape
+AttributeError: 'list' object has no attribute 'shape'
+2025-07-05 12:27:32,433 - ERROR - logger.py:34 -            exception() - failed to process with reason not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "/home/shashankkodakandla/Desktop/supportChatBot/embedSearcher.py", line 32, in search
+    result = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 29, in search
+    return self.ind.search(embedding, k=self.topK)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/faiss/__init__.py", line 307, in replacement_search
+    n, d = x.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+2025-07-05 12:27:45,388 - ERROR - logger.py:34 -            exception() - failed to process with reason not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "/home/shashankkodakandla/Desktop/supportChatBot/embedSearcher.py", line 32, in search
+    result = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 29, in search
+    return self.ind.search(embedding, k=self.topK)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/faiss/__init__.py", line 307, in replacement_search
+    n, d = x.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+2025-07-05 12:35:03,509 - ERROR - logger.py:34 -            exception() - failed to process with reason not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "/home/shashankkodakandla/Desktop/supportChatBot/embedSearcher.py", line 32, in search
+    result = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 29, in search
+    data = self.ind.search(embedding, k=self.topK)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/faiss/__init__.py", line 307, in replacement_search
+    n, d = x.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+2025-07-05 12:36:22,919 - ERROR - logger.py:34 -            exception() - failed to process with reason not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "/home/shashankkodakandla/Desktop/supportChatBot/embedSearcher.py", line 32, in search
+    result = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 29, in search
+    D, I  = self.ind.search(embedding, k=self.topK)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/faiss/__init__.py", line 307, in replacement_search
+    n, d = x.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+2025-07-05 12:38:26,631 - ERROR - logger.py:34 -            exception() - failed to process with reason not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "/home/shashankkodakandla/Desktop/supportChatBot/embedSearcher.py", line 32, in search
+    result = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 29, in search
+    D, I  = self.ind.search(embedding, k=self.topK)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/faiss/__init__.py", line 307, in replacement_search
+    n, d = x.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+2025-07-05 12:39:18,270 - ERROR - logger.py:34 -            exception() - failed to process with reason not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "/home/shashankkodakandla/Desktop/supportChatBot/embedSearcher.py", line 32, in search
+    result = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 30, in search
+    D, I  = self.ind.search(embedding, k=self.topK)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/faiss/__init__.py", line 307, in replacement_search
+    n, d = x.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+2025-07-05 12:40:21,969 - ERROR - logger.py:34 -            exception() - failed to process with reason in method 'IndexIDMap_search', argument 3 of type 'faiss::IndexIDMapTemplate< faiss::Index >::component_t const *'
+Traceback (most recent call last):
+  File "/home/shashankkodakandla/Desktop/supportChatBot/embedSearcher.py", line 32, in search
+    result = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 32, in search
+    D, I  = self.ind.search(embedding, k=self.topK)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/faiss/__init__.py", line 322, in replacement_search
+    self.search_c(n, swig_ptr(x), k, swig_ptr(D), swig_ptr(I))
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/faiss/swigfaiss.py", line 7910, in search
+    return _swigfaiss.IndexIDMap_search(self, n, x, k, distances, labels)
+TypeError: in method 'IndexIDMap_search', argument 3 of type 'faiss::IndexIDMapTemplate< faiss::Index >::component_t const *'

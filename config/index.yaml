@@ -1,0 +1,5 @@
+logFile: logs/app.log
+dataMap: dataMap.json
+scrappedType:
+  - pdf
+  - web

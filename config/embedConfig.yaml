@@ -1,0 +1,4 @@
+host: 0.0.0.0
+
+logpath: ./logs/embedLog.log
+model: multi-qa-MiniLM-L6-cos-v1

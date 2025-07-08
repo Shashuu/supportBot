@@ -1,0 +1,198 @@
+2025-07-07 16:35:58,199 - ERROR - logger.py:34 -            exception() - failed to process with reason 'AnswerGen' object is not callable
+Traceback (most recent call last):
+  File "supportBot.py", line 41, in query
+    return build_response(HTTPStatus.OK, {"data": answer})
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 65, in getSupport
+    potentialSearchRes = self.getPotentialResult(searchResults = searchResults)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 55, in getAnswer
+    def getAnswer(self, query, result):
+TypeError: 'AnswerGen' object is not callable
+2025-07-07 16:38:36,359 - ERROR - logger.py:34 -            exception() - failed to process with reason 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+Traceback (most recent call last):
+  File "supportBot.py", line 40, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 66, in getSupport
+    answer = self.getAnswer(query, potentialSearchRes)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 56, in getAnswer
+    response = self.answerHandler.generate(f"Question: {query}. Relevant Info: {result}. Answer: ")
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/generator/answerGenService.py", line 23, in generate
+    inputs = self.tokenizer.tokenizer(query, return_tensors="pt")
+AttributeError: 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+2025-07-07 16:40:42,179 - ERROR - logger.py:34 -            exception() - failed to process with reason 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+Traceback (most recent call last):
+  File "supportBot.py", line 40, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 68, in getSupport
+    answer = self.getAnswer(query, potentialSearchRes)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 56, in getAnswer
+    response = self.answerHandler.generate(f"Question: {query}. Relevant Info: {result}. Answer: ")
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/generator/answerGenService.py", line 23, in generate
+    inputs = self.tokenizer.tokenizer(query, return_tensors="pt")
+AttributeError: 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+2025-07-07 16:42:37,669 - ERROR - logger.py:34 -            exception() - failed to process with reason 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+Traceback (most recent call last):
+  File "supportBot.py", line 40, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 68, in getSupport
+    answer = self.getAnswer(query, potentialSearchRes)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 56, in getAnswer
+    response = self.answerHandler.generate(f"Question: {query}. Relevant Info: {result}. Answer: ")
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/generator/answerGenService.py", line 23, in generate
+    inputs = self.tokenizer.tokenizer(query, return_tensors="pt")
+AttributeError: 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+2025-07-07 16:43:12,973 - ERROR - logger.py:34 -            exception() - failed to process with reason 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+Traceback (most recent call last):
+  File "supportBot.py", line 40, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 68, in getSupport
+    answer = self.getAnswer(query, potentialSearchRes)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 56, in getAnswer
+    response = self.answerHandler.generate(f"Question: {query}. Relevant Info: {result}. Answer: ")
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/generator/answerGenService.py", line 23, in generate
+    inputs = self.tokenizer.tokenizer(query, return_tensors="pt")
+AttributeError: 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+2025-07-07 16:44:54,246 - ERROR - logger.py:34 -            exception() - failed to process with reason 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+Traceback (most recent call last):
+  File "supportBot.py", line 40, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 68, in getSupport
+    answer = self.getAnswer(query, potentialSearchRes)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 56, in getAnswer
+    response = self.answerHandler.generate(f"Question: {query}. Relevant Info: {result}. Answer: ")
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/generator/answerGenService.py", line 23, in generate
+    inputs = self.tokenizer.tokenizer(query, return_tensors="pt")
+AttributeError: 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+2025-07-07 16:46:23,115 - ERROR - logger.py:34 -            exception() - failed to process with reason 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+Traceback (most recent call last):
+  File "supportBot.py", line 40, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 70, in getSupport
+    answer = self.getAnswer(query, potentialSearchRes)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 56, in getAnswer
+    response = self.answerHandler.generate(f"Question: {query}. Relevant Info: {result}. Answer: ")
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/generator/answerGenService.py", line 23, in generate
+    inputs = self.tokenizer.tokenizer(query, return_tensors="pt")
+AttributeError: 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+2025-07-07 16:50:56,413 - ERROR - logger.py:34 -            exception() - failed to process with reason 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+Traceback (most recent call last):
+  File "supportBot.py", line 40, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 70, in getSupport
+    return answer
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 56, in getAnswer
+    return response
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/generator/answerGenService.py", line 23, in generate
+    inputs = self.tokenizer.tokenizer(query, return_tensors="pt")
+AttributeError: 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+2025-07-07 16:56:02,634 - ERROR - logger.py:34 -            exception() - failed to process with reason 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+Traceback (most recent call last):
+  File "supportBot.py", line 40, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 70, in getSupport
+    answer = self.getAnswer(query, potentialSearchRes)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 56, in getAnswer
+    response = self.answerHandler.generate(f"Question: {query}. Relevant Info: {result}. Answer: ")
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/generator/answerGenService.py", line 23, in generate
+    inputs = self.tokenizer.tokenizer(query, return_tensors="pt")
+AttributeError: 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+2025-07-07 16:56:36,741 - ERROR - logger.py:34 -            exception() - failed to process with reason 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+Traceback (most recent call last):
+  File "supportBot.py", line 40, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 71, in getSupport
+    answer = self.getAnswer(query, potentialSearchRes)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 57, in getAnswer
+    response = self.answerHandler.generate(f"Question: {query}. Relevant Info: {result}. Answer: ")
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/generator/answerGenService.py", line 23, in generate
+    inputs = self.tokenizer.tokenizer(query, return_tensors="pt")
+AttributeError: 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+2025-07-07 16:57:45,945 - ERROR - logger.py:34 -            exception() - failed to process with reason 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+Traceback (most recent call last):
+  File "supportBot.py", line 40, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 72, in getSupport
+    answer = self.getAnswer(query, potentialSearchRes)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 57, in getAnswer
+    response = self.answerHandler.generate(f"Question: {query}. Relevant Info: {result}. Answer: ")
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/generator/answerGenService.py", line 23, in generate
+    inputs = self.tokenizer.tokenizer(query, return_tensors="pt")
+AttributeError: 'CodeGenTokenizerFast' object has no attribute 'tokenizer'
+2025-07-07 17:00:40,513 - ERROR - logger.py:34 -            exception() - failed to process with reason generate() missing 1 required positional argument: 'query'
+Traceback (most recent call last):
+  File "supportBot.py", line 40, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 74, in getSupport
+    answer = self.getAnswer(query, potentialSearchRes)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 59, in getAnswer
+    response = self.answerHandler.generate()
+TypeError: generate() missing 1 required positional argument: 'query'
+2025-07-07 19:48:12,491 - ERROR - logger.py:34 -            exception() - failed to process with reason ord() expected a character, but string of length 7 found
+Traceback (most recent call last):
+  File "supportBot.py", line 44, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 72, in getSupport
+    answer = self.getAnswer(query, potentialSearchRes)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 57, in getAnswer
+    response = self.answerHandler.generate(query, context)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/generator/answerGenService.py", line 9, in generate
+    res = self.model({"question": query, "context": context}, max_length=self.maxLength)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/transformers/pipelines/question_answering.py", line 391, in __call__
+    examples = self._args_parser(*args, **kwargs)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/transformers/pipelines/question_answering.py", line 219, in __call__
+    inputs[i] = self.normalize(item)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/transformers/pipelines/question_answering.py", line 171, in normalize
+    return QuestionAnsweringPipeline.create_sample(**item)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/transformers/pipelines/question_answering.py", line 298, in create_sample
+    return SquadExample(None, question, context, None, None, None)
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/transformers/data/processors/squad.py", line 739, in __init__
+    if _is_whitespace(c):
+  File "/home/shashankkodakandla/.local/lib/python3.8/site-packages/transformers/data/processors/squad.py", line 99, in _is_whitespace
+    if c == " " or c == "\t" or c == "\r" or c == "\n" or ord(c) == 0x202F:
+TypeError: ord() expected a character, but string of length 7 found
+2025-07-07 20:19:54,363 - ERROR - logger.py:34 -            exception() - failed to process with reason not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "supportBot.py", line 44, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 72, in getSupport
+    answer = self.getAnswer(query, json.dumps(potentialSearchRes))
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 57, in getAnswer
+    response = self.answerHandler.generate(query, context)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/generator/answerGenService.py", line 24, in generate
+    inputs = self.tokenizer(queryAnsString%(query, context), return_tensors="pt")
+TypeError: not all arguments converted during string formatting
+2025-07-07 20:21:54,210 - ERROR - logger.py:34 -            exception() - failed to process with reason string indices must be integers
+Traceback (most recent call last):
+  File "supportBot.py", line 44, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 73, in getSupport
+    answer = self.getAnswer(query, json.dumps(potentialSearchRes))
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 59, in getAnswer
+    return response['answer']
+TypeError: string indices must be integers
+2025-07-07 20:23:17,010 - ERROR - logger.py:34 -            exception() - failed to process with reason string indices must be integers
+Traceback (most recent call last):
+  File "supportBot.py", line 44, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 73, in getSupport
+    answer = self.getAnswer(query, json.dumps(potentialSearchRes))
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 59, in getAnswer
+    return response['answer']
+TypeError: string indices must be integers
+2025-07-07 22:41:14,390 - ERROR - logger.py:34 -            exception() - failed to process with reason 0
+Traceback (most recent call last):
+  File "supportBot.py", line 44, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 71, in getSupport
+    potentialSearchRes = self.getPotentialResult(searchResults = searchResults)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 20, in getPotentialResult
+    candidate = searchResults[0]["data"][0] if searchResults[0]["data"][0]["score"] > searchResults[1]["data"][0]["score"] else searchResults[1]["data"][0]
+KeyError: 0
+2025-07-07 22:42:17,660 - ERROR - logger.py:34 -            exception() - failed to process with reason 0
+Traceback (most recent call last):
+  File "supportBot.py", line 44, in query
+    answer = supportBot.getSupport(data)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 71, in getSupport
+    potentialSearchRes = self.getPotentialResult(searchResults = searchResults)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/support/supportService.py", line 20, in getPotentialResult
+    candidate = searchResults[0]["data"][0] if searchResults[0]["data"][0]["score"] > searchResults[1]["data"][0]["score"] else searchResults[1]["data"][0]
+KeyError: 0

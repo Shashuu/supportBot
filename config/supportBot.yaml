@@ -1,0 +1,27 @@
+logpath: logs/bot.log
+
+host: 0.0.0.0
+port: 8080
+
+threshold: 0.5
+
+embService: 
+  protocol: http
+  host: 127.0.0.1:8081
+  uri: /get-embedding
+
+searchService:
+  web:
+    protocol: http
+    host: 127.0.0.1:8082
+    uri: /search
+  pdf:
+    protocol: http
+    host: 127.0.0.1:8083
+    uri: /search
+
+QAService:
+  task: question-answering
+  model: deepset/roberta-base-squad2
+  maxLength: 80
+  model_id: microsoft/phi-2

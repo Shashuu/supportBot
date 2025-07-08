@@ -1,0 +1,200 @@
+{
+  "1": {
+    "Common Medical Event": "If you visit a health\ncare provider’s office\nor clinic",
+    "Services You May Need": "Primary care visit to treat an injury or illness ",
+    "Member out of pocket": "$25 copay/visit",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "2": {
+    "Common Medical Event": "If you visit a health\ncare provider’s office\nor clinic",
+    "Services You May Need": "Specialist visit",
+    "Member out of pocket": "$40 copay/visit",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "3": {
+    "Common Medical Event": "If you visit a health\ncare provider’s office\nor clinic",
+    "Services You May Need": "Preventive care/screening/\nimmunization",
+    "Member out of pocket": "0% coinsurance",
+    "Limitations, Exceptions, & Other Important Information": "You may have to pay for services that aren’t preventive.\nAsk your provider if the services you need are preventive.\nThen check what your plan will pay for. Subject to plan\nallowable "
+  },
+  "4": {
+    "Common Medical Event": "If you have a test",
+    "Services You May Need": "Diagnostic test (blood work)",
+    "Member out of pocket": "Facility: 20% of plan allowable,\ndeductible does not apply\nProfessional Fees: 20% after deductible",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "5": {
+    "Common Medical Event": "If you have a test",
+    "Services You May Need": "Imaging (X-Ray, CT/PET\nscans, MRIs)",
+    "Member out of pocket": "Facility: 20% of plan allowable, deductible does not apply ",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "6": {
+    "Common Medical Event": "If you have a test",
+    "Services You May Need": "Imaging (X-Ray, CT/PET\nscans, MRIs)",
+    "Member out of pocket": "Professional Fees: 20% after deductible $45 copay/prescription ",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "7": {
+    "Common Medical Event": "If you need drugs to\ntreat your illness or\ncondition\nMore information about\nprescription drug\ncoverage is available at\nwww.medalistrx.com",
+    "Services You May Need": "Generic drugs",
+    "Member out of pocket": "$10 copay/prescription",
+    "Limitations, Exceptions, & Other Important Information": "Copays listed are for 0-30 day supply/prescription. 31-90\nday supply; generic $30.00, brand name $90.00, Non-\nPreferred Brand $150.00\nCopays apply to Retail and/or Mail Order."
+  },
+  "8": {
+    "Common Medical Event": "If you need drugs to\ntreat your illness or\ncondition\nMore information about\nprescription drug\ncoverage is available at\nwww.medalistrx.com",
+    "Services You May Need": "Preferred brand drugs",
+    "Member out of pocket": "$10 copay/prescription",
+    "Limitations, Exceptions, & Other Important Information": "Copays listed are for 0-30 day supply/prescription. 31-90\nday supply; generic $30.00, brand name $90.00, Non-\nPreferred Brand $150.00\nCopays apply to Retail and/or Mail Order."
+  },
+  "9": {
+    "Common Medical Event": "If you need drugs to\ntreat your illness or\ncondition\nMore information about\nprescription drug\ncoverage is available at\nwww.medalistrx.com",
+    "Services You May Need": "Non-preferred brand drugs",
+    "Member out of pocket": "$85 copay/prescription",
+    "Limitations, Exceptions, & Other Important Information": "Copays listed are for 0-30 day supply/prescription. 31-90\nday supply; generic $30.00, brand name $90.00, Non-\nPreferred Brand $150.00\nCopays apply to Retail and/or Mail Order."
+  },
+  "10": {
+    "Common Medical Event": "If you need drugs to\ntreat your illness or\ncondition\nMore information about\nprescription drug\ncoverage is available at\nwww.medalistrx.com",
+    "Services You May Need": "Specialty drugs",
+    "Member out of pocket": "Excluded",
+    "Limitations, Exceptions, & Other Important Information": "None"
+  },
+  "11": {
+    "Common Medical Event": "If you have outpatient\nsurgery",
+    "Services You May Need": "Facility fee (e.g., ambulatory\nsurgery center)",
+    "Member out of pocket": "Facility: 20% of plan allowable,\ndeductible does not apply",
+    "Limitations, Exceptions, & Other Important Information": "Failure to obtain precertification will result in a 50% benefit\nreduction ($2,500 maximum). Subject to plan allowable."
+  },
+  "12": {
+    "Common Medical Event": "If you have outpatient\nsurgery",
+    "Services You May Need": "Physician/surgeon fees",
+    "Member out of pocket": "Professional Fees: 20% after deductible, subject to plan allowable ",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "13": {
+    "Common Medical Event": "If you need immediate\nmedical attention",
+    "Services You May Need": "Emergency room care",
+    "Member out of pocket": "Facility: 20% of plan allowable,\ndeductible does not apply\nProfessional Fees: 20% after deductible",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "14": {
+    "Common Medical Event": "If you need immediate\nmedical attention",
+    "Services You May Need": "Emergency medical transportation ",
+    "Member out of pocket": "20% after deductible",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "15": {
+    "Common Medical Event": "If you need immediate\nmedical attention",
+    "Services You May Need": "Urgent care",
+    "Member out of pocket": "$60 copay/visit",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "16": {
+    "Common Medical Event": "If you have a hospital\nstay",
+    "Services You May Need": "Facility fee (e.g., hospital room)",
+    "Member out of pocket": "Facility: 20% of plan allowable, deductible does not apply ",
+    "Limitations, Exceptions, & Other Important Information": "Failure to obtain precertification will result in a 50% benefit\nreduction ($2,500 maximum). Subject to plan allowable."
+  },
+  "17": {
+    "Common Medical Event": "If you have a hospital\nstay",
+    "Services You May Need": "Physician/surgeon fees",
+    "Member out of pocket": "Professional Fees: 20% after deductible",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "18": {
+    "Common Medical Event": "If you need mental\nhealth, behavioral\nhealth and substance\nabuse services",
+    "Services You May Need": "Outpatient services",
+    "Member out of pocket": "$25 copay/visit",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "19": {
+    "Common Medical Event": "If you need mental\nhealth, behavioral\nhealth and substance\nabuse services",
+    "Services You May Need": "Inpatient services",
+    "Member out of pocket": "Deductible/Coinsurance",
+    "Limitations, Exceptions, & Other Important Information": "Failure to obtain precertification will result in a 50% benefit\nreduction ($2,500 maximum). Subject to plan allowable."
+  },
+  "20": {
+    "Common Medical Event": "If you are pregnant",
+    "Services You May Need": "Office visits",
+    "Member out of pocket": "$25 copay/visit",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "21": {
+    "Common Medical Event": "If you are pregnant",
+    "Services You May Need": "Childbirth/delivery professional\nservices",
+    "Member out of pocket": "Professional Fees: 20% after deductible",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "22": {
+    "Common Medical Event": "If you are pregnant",
+    "Services You May Need": "Childbirth/delivery facility\nservices",
+    "Member out of pocket": "Facility: 20% of plan allowable, deductible does not apply ",
+    "Limitations, Exceptions, & Other Important Information": "Subject to plan allowable"
+  },
+  "23": {
+    "Common Medical Event": "If you need help\nrecovering or have\nother special health\nneeds",
+    "Services You May Need": "Home health care",
+    "Member out of pocket": "20% after deductible,",
+    "Limitations, Exceptions, & Other Important Information": "Failure to obtain precertification will result in a 50% benefit reduction ($2,500 maximum). Subject to plan allowable. "
+  },
+  "24": {
+    "Common Medical Event": "If you need help\nrecovering or have\nother special health\nneeds",
+    "Services You May Need": "Rehabilitation services",
+    "Member out of pocket": "$40 copay/visit",
+    "Limitations, Exceptions, & Other Important Information": "Limited to 20 visits per Calendar Year for physical, and occupational therapies each, 20 visits for Speech, 15 visits for Chiropractic. Subject to plan allowable "
+  },
+  "25": {
+    "Common Medical Event": "If you need help\nrecovering or have\nother special health\nneeds",
+    "Services You May Need": "Rehabilitation services",
+    "Member out of pocket": "$40 copay/visit",
+    "Limitations, Exceptions, & Other Important Information": "Limited to 20 visits per Calendar Year, combined with the\nabove therapies. Subject to plan allowable"
+  },
+  "26": {
+    "Common Medical Event": "If you need help\nrecovering or have\nother special health\nneeds",
+    "Services You May Need": "Habilitation services ",
+    "Member out of pocket": "$40 copay/visit",
+    "Limitations, Exceptions, & Other Important Information": "Limited to 20 visits per Calendar Year, combined with the\nabove therapies. Subject to plan allowable"
+  },
+  "27": {
+    "Common Medical Event": "If you need help\nrecovering or have\nother special health\nneeds",
+    "Services You May Need": "Skilled nursing care",
+    "Member out of pocket": "Facility: 20% of plan allowable, deductible does not apply ",
+    "Limitations, Exceptions, & Other Important Information": "Limited to 60 days per Calendar Year. Failure to obtain\nprecertification will result in a 50% benefit reduction\n($2,500 maximum). Subject to plan allowable"
+  },
+  "28": {
+    "Common Medical Event": "If you need help\nrecovering or have\nother special health\nneeds",
+    "Services You May Need": "Skilled nursing care",
+    "Member out of pocket": "Professional Fees: 20% after deductible ",
+    "Limitations, Exceptions, & Other Important Information": "Limited to 60 days per Calendar Year. Failure to obtain\nprecertification will result in a 50% benefit reduction\n($2,500 maximum). Subject to plan allowable"
+  },
+  "29": {
+    "Common Medical Event": "If you need help\nrecovering or have\nother special health\nneeds",
+    "Services You May Need": "Durable medical equipment",
+    "Member out of pocket": "20% after deductible",
+    "Limitations, Exceptions, & Other Important Information": "Failure to obtain precertification will result in a 50% benefit reduction ($2,500 maximum). Subject to plan allowable. (Limited to 12 month rental or purchase price, whichever is less) "
+  },
+  "30": {
+    "Common Medical Event": "If you need help\nrecovering or have\nother special health\nneeds",
+    "Services You May Need": "Hospice services",
+    "Member out of pocket": "20% after deductible",
+    "Limitations, Exceptions, & Other Important Information": "Failure to obtain precertification will result in a 50% benefit reduction ($2,500 maximum). Subject to plan allowable. "
+  },
+  "31": {
+    "Common Medical Event": "If your child needs\ndental or eye care",
+    "Services You May Need": "Children’s eye exam ",
+    "Member out of pocket": "Not covered ",
+    "Limitations, Exceptions, & Other Important Information": "None "
+  },
+  "32": {
+    "Common Medical Event": "If your child needs\ndental or eye care",
+    "Services You May Need": "Children’s glasses ",
+    "Member out of pocket": "Not covered ",
+    "Limitations, Exceptions, & Other Important Information": "None "
+  },
+  "33": {
+    "Common Medical Event": "If your child needs\ndental or eye care",
+    "Services You May Need": "Children’s dental check-up ",
+    "Member out of pocket": "Not covered ",
+    "Limitations, Exceptions, & Other Important Information": "None "
+  }
+}

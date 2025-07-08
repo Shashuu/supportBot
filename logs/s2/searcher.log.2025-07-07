@@ -1,0 +1,62 @@
+2025-07-07 16:35:58,197 - ERROR - logger.py:34 -            exception() - failed to process with reason setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+Traceback (most recent call last):
+  File "embedSearcher.py", line 39, in search
+    scoreList, idList = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 31, in search
+    embedding = np.array(embedding, dtype='float32')
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-07-07 16:38:36,356 - ERROR - logger.py:34 -            exception() - failed to process with reason setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+Traceback (most recent call last):
+  File "embedSearcher.py", line 39, in search
+    scoreList, idList = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 31, in search
+    embedding = np.array(embedding, dtype='float32')
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-07-07 16:40:42,177 - ERROR - logger.py:34 -            exception() - failed to process with reason setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+Traceback (most recent call last):
+  File "embedSearcher.py", line 39, in search
+    scoreList, idList = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 31, in search
+    embedding = np.array(embedding, dtype='float32')
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-07-07 16:42:37,667 - ERROR - logger.py:34 -            exception() - failed to process with reason setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+Traceback (most recent call last):
+  File "embedSearcher.py", line 39, in search
+    scoreList, idList = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 31, in search
+    embedding = np.array(embedding, dtype='float32')
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-07-07 16:43:12,970 - ERROR - logger.py:34 -            exception() - failed to process with reason setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+Traceback (most recent call last):
+  File "embedSearcher.py", line 39, in search
+    scoreList, idList = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 31, in search
+    embedding = np.array(embedding, dtype='float32')
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-07-07 16:44:54,244 - ERROR - logger.py:34 -            exception() - failed to process with reason setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+Traceback (most recent call last):
+  File "embedSearcher.py", line 39, in search
+    scoreList, idList = embedService.search(embedding)
+  File "/home/shashankkodakandla/Desktop/supportChatBot/service/searcher/searcher.py", line 31, in search
+    embedding = np.array(embedding, dtype='float32')
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
+2025-07-07 22:41:14,376 - ERROR - logger.py:34 -            exception() - failed to process with reason '-1'
+Traceback (most recent call last):
+  File "embedSearcher.py", line 48, in search
+    "text": dataMap[str(idList[0][idx])]
+KeyError: '-1'
+2025-07-07 22:42:17,657 - ERROR - logger.py:34 -            exception() - failed to process with reason '-1'
+Traceback (most recent call last):
+  File "embedSearcher.py", line 48, in search
+    "text": dataMap[str(idList[0][idx])]
+KeyError: '-1'
+2025-07-07 22:44:01,537 - ERROR - logger.py:34 -            exception() - failed to process with reason '-1'
+Traceback (most recent call last):
+  File "embedSearcher.py", line 48, in search
+    "text": dataMap[str(idList[0][idx])]
+KeyError: '-1'
+2025-07-07 22:44:52,886 - ERROR - logger.py:34 -            exception() - failed to process with reason '-1'
+Traceback (most recent call last):
+  File "embedSearcher.py", line 48, in search
+    "text": dataMap[str(idList[0][idx])]
+KeyError: '-1'
