@@ -3,7 +3,7 @@ from http import HTTPStatus
 
 from service.searcher.searcher import SearcherIndexService
 
-from utils.commonUtil import getConfig, pathConstruct, readFile
+from utils.commonUtil import getConfig, pathConstruct, readFile, createDir
 from utils.logger import Logger
 from utils.responseUtil import build_response
 from constants.constants import FileExt
@@ -20,6 +20,8 @@ args = parser.parse_args()
 
 conf = getConfig(args.conf)
 dataMap = readFile(args.dataMap, FileExt.JSON)
+
+createDir(args.lp)
 
 log = Logger(pathConstruct(args.lp, conf["logFile"]))
 

@@ -87,6 +87,9 @@ def formatCleanseTheRecord(record):
     # cleansedRecord = Cleanser.cleanse(formattedRecord)
     return record
 
+def createDir(path):
+    os.makedirs(path, exist_ok=True)
+
 conf = "config/config.yaml"
 c = getConfig(conf)
 
