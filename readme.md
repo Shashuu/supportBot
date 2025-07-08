@@ -1,8 +1,8 @@
 # setup
-Description:	Ubuntu 20.04.6 LTS
-Release:	    20.04
-Architecture:   x86_64
-Python version: 3.8.10
+Description:	Ubuntu 20.04.6 LTS <br />
+Release:	    20.04 <br />
+Architecture:   x86_64 <br />
+Python version: 3.8.10 <br />
 
 # scripts
 
