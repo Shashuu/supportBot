@@ -38,7 +38,7 @@ def search():
         embedding = req["embedding"]
         scoreList, idList = embedService.search(embedding)
         resultList = []
-        print(scoreList, idList)
+        #print(scoreList, idList)
         for idx in range(len(scoreList[0])):
             #print(scoreList[0][idx], idList[0][idx])
             resultList.append(

@@ -22,7 +22,8 @@ def getConfig(path):
         base_config = open(path)
         config[path] = yaml.load(base_config.read(), yaml.SafeLoader)
     except Exception as e:
-        print(f"failed while loading from {path}")
+        print(f"failed while loading from {path} with reason {str(e)}")
+        return dict()
 
     return config[path]
 
